@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>X</title>
+</head>
+
+<body>
+
+    <h1 id="tekst">Poengteller</h1>
+
+    <div class="spiller">
+        <h2>Spiller 1</h2>
+        <p id="poeng1">0</p>
+
+        <button onclick="pluss1()">+1</button>
+        <button onclick="minus1()">-1</button>
+    </div>
+
+    <div class="spiller">
+        <h2>Spiller 2</h2>
+        <p id="poeng2">0</p>
+
+        <button onclick="pluss2()">+1</button>
+        <button onclick="minus2()">-1</button>
+    </div>
+
+    <button onclick="nullstill()">Nullstill</button>
+
+    <br><br>
+
+    <img id="buton" src="/bilde/mørk.png" onclick="farge()" width="150">
+
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
