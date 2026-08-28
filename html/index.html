@@ -9,8 +9,12 @@
 
 <body>
 
-    <h1 id="tekst">Poengteller</h1>
+   
+    <img id="buton" src="/bilde/mørk.png" onclick="farge()" width="100">
 
+    <h1>Poengteller</h1>
+
+    
     <div class="spiller">
         <h2>Spiller 1</h2>
         <p id="poeng1">0</p>
@@ -19,6 +23,7 @@
         <button onclick="minus1()">-1</button>
     </div>
 
+    
     <div class="spiller">
         <h2>Spiller 2</h2>
         <p id="poeng2">0</p>
@@ -27,11 +32,28 @@
         <button onclick="minus2()">-1</button>
     </div>
 
+    <br>
+
     <button onclick="nullstill()">Nullstill</button>
 
-    <br><br>
+    <hr>
 
-    <img id="buton" src="/bilde/mørk.png" onclick="farge()" width="150">
+    <h2>Morsomme sitater</h2>
+
+    <p id="sitat">Trykk på knappen!</p>
+
+    <button onclick="nyttSitat()">Nytt sitat</button>
+
+    <hr>
+
+    <h2>Morsomme bilder</h2>
+
+<img id="bilde" src="/bilde/redan.jpg" width="300">
+
+<br><br>
+
+<button onclick="nyttBilde()">Nytt bilde</button>
+
 
     <script src="/js/script.js"></script>
 
